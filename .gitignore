@@ -1,8 +1,8 @@
-./chat_history.log
-./.gitattributes
-./build_client.bat
-./build_server.bat
-./messenger
-./server.spec
-./client.spec
-./build
+chat_history.log
+.gitattributes
+build_client.bat
+build_server.bat
+messenger
+server.spec
+client.spec
+build
