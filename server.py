@@ -7,7 +7,7 @@ HOST = ''  # Слушаем все доступные интерфейсы
 PORT = 5000  # Порт для подключения
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 server_socket.bind((HOST, PORT))
-server_socket.listen(5)  # Максимум 5 подключений
+server_socket.listen(16)  # Максимум 16 подключений
 
 clients = {}  # Словарь клиентов с никнеймами
 
